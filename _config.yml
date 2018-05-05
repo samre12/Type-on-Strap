@@ -1,23 +1,23 @@
 # SITE CONFIGURATION
 url: "https://samre12.github.io"
 title: Kartikay Garg # site's title
-description: "A website with blog posts and pages" # used by search engines
+description: "Kartikay's Blog" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: Kartikay Garg # blog's title
-  avatar: assets/img/triangle.svg
+  avatar: assets/img/myAvatar.svg
   favicon: assets/favicon.ico
   gravatar: 9c4b765f7aab60d6064d7399f77d2ba6
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+     Kartikay's Blog
+  header_text_feature_image: assets/img/pexels/wall_e.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -28,7 +28,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "github"
+  github: "samre12"
   google_plus:
   instagram:
   keybase:
@@ -96,4 +96,4 @@ sass:
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md"]
